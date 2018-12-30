@@ -115,6 +115,9 @@ selectedCard = (id) => {
       this.setState((prevState) => ({
       counter: prevState.counter = 0  
       }));
+      this.setState((prevState) => ({
+        clicks: [] 
+        }));
   }
   else {
     this.setState((prevState) => ({
